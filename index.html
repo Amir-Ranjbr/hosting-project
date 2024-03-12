@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="src/app.css" />
     <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon" />
     <!-- fontawsome -->
     <link
@@ -93,7 +93,7 @@
       </div>
     </header>
     <!-- Trusted Logo -->
-    <figure class="trusted">
+    <section class="trusted">
       <div class="container">
         <p>Trusted By <i class="fa-solid fa-arrow-right"></i></p>
         <section class="trusted__wrapper p2">
@@ -117,18 +117,18 @@
           </div>
         </section>
       </div>
-    </figure>
+    </section>
     <!-- TopLine -->
-    <figure class="topline">
+    <section class="topline">
       <div class="container">
         <div class="topline__title">
           <h1>Our Applications <span> Hosting Services </span></h1>
           <p>We host any application on our secured cloud at nominal prices.</p>
         </div>
       </div>
-    </figure>
+    </section>
     <!-- QuickBooks -->
-    <figure class="quickbox">
+    <section class="quickbox">
       <div class="container">
         <div class="quickbox-wrapper">
           <section class="quickbox-left">
@@ -178,9 +178,9 @@
           </section>
         </div>
       </div>
-    </figure>
+    </section>
     <!-- Tax Section -->
-    <figure class="tax">
+    <section class="tax">
       <div class="container">
         <div class="tax__wrapper p2">
           <section class="tax-section-left">
@@ -201,9 +201,9 @@
           </section>
         </div>
       </div>
-    </figure>
+    </section>
     <!-- Questions -->
-    <figure class="questions__box">
+    <section class="questions__box">
       <div class="container">
         <div class="questions-wrapper">
           <section class="box__section-left p2">
@@ -220,19 +220,19 @@
           </section>
         </div>
       </div>
-    </figure>
+    </section>
     <!-- TopLine -->
-    <figure class="topline">
+    <section class="topline">
       <div class="container">
         <div class="topline__title">
           <h1>Why Ace Cloud <span>Hosting?</span></h1>
         </div>
       </div>
-    </figure>
-    <!-- Sopport  -->
-    <figure class="sopport__box">
+    </section>
+    <!-- Support  -->
+    <section class="support__box">
       <div class="container">
-        <div class="sopport__box-wrapper p2">
+        <div class="support__box-wrapper p2">
           <div class="box-wrapper-section-left">
             <h2>Always on Support</h2>
             <p>
@@ -246,69 +246,82 @@
           </div>
         </div>
       </div>
-    </figure>
+    </section>
     <!-- TopLine -->
-    <figure class="topline">
+    <section class="topline">
       <div class="container">
         <div class="topline__title">
           <h1>Customer <span> Testimonials</span></h1>
         </div>
       </div>
-    </figure>
+    </section>
     <!-- Slider Card -->
-    <figure class="slider__box">
+    <section class="slider__box">
       <div class="container">
-        <div class="slider__wrapper p2">
-          <i class="fa-solid fa-chevron-circle-left left-arrow"></i>
-          <div class="slider_one disable-slider">
-            <img src="images/card/user-1.png" alt="user-1" />
-            <div class="slider-info">
-              <h3>Name One</h3>
-              <div class="slider-info-star">
-                <img src="images/card/star.png" alt="" />
-                <img src="images/card/star.png" alt="" />
-                <img src="images/card/star.png" alt="" />
-                <img src="images/card/star.png" alt="" />
+        <div class="slider">
+          <div class="slide slide--1">
+            <div class="slide__wrapper">
+              <img src="images/card/user-1.png" alt="user-1" />
+              <div class="slider-info">
+                <h3>User One</h3>
+                <div class="slider-info-star">
+                  <img src="images/card/star.png" alt="" />
+                  <img src="images/card/star.png" alt="" />
+                  <img src="images/card/star.png" alt="" />
+                  <img src="images/card/star.png" alt="" />
+                </div>
+                <p>Lorem ipsum dolor sit amet, consetetur</p>
+                <a href="#" id="readmore" class="active-readmore">Read More</a>
               </div>
-              <p>Lorem ipsum dolor sit amet, consetetur</p>
             </div>
           </div>
-          <div class="slider_two active-slider">
-            <img src="images/card/user-2.png" alt="user-2" />
-            <div class="slider-info">
-              <h3>Name Two</h3>
-              <div class="slider-info-star">
-                <img src="images/card/star.png" alt="" />
-                <img src="images/card/star.png" alt="" />
-                <img src="images/card/star.png" alt="" />
-                <img src="images/card/star.png" alt="" />
-                <img src="images/card/star.png" alt="" />
+          <div class="slide slide--2">
+            <div class="slide__wrapper">
+              <img src="images/card/user-2.png" alt="user-2" />
+              <div class="slider-info">
+                <h3>User Two</h3>
+                <div class="slider-info-star">
+                  <img src="images/card/star.png" alt="" />
+                  <img src="images/card/star.png" alt="" />
+                  <img src="images/card/star.png" alt="" />
+                  <img src="images/card/star.png" alt="" />
+                  <img src="images/card/star.png" alt="" />
+                </div>
+                <p>Lorem ipsum dolor sit amet, consetetur</p>
+                <a href="#" id="readmore" class="active-readmore">Read More</a>
               </div>
-              <p>Lorem ipsum dolor sit amet, consetetur</p>
-              <a href="#" id="readmore" class="active-readmore">Read More</a>
             </div>
           </div>
-          <div class="slider_three disable-slider">
-            <img src="images/card/user-3.png" alt="user-3" />
-            <div class="slider-info">
-              <h3>Name Three</h3>
-              <div class="slider-info-star">
-                <img src="images/card/star.png" alt="" />
-                <img src="images/card/star.png" alt="" />
-                <img src="images/card/star.png" alt="" />
-                <img src="images/card/star.png" alt="" />
+          <div class="slide slide--3">
+            <div class="slide__wrapper">
+              <img src="images/card/user-3.png" alt="user-3" />
+              <div class="slider-info">
+                <h3>User Three</h3>
+                <div class="slider-info-star">
+                  <img src="images/card/star.png" alt="" />
+                  <img src="images/card/star.png" alt="" />
+                  <img src="images/card/star.png" alt="" />
+                  <img src="images/card/star.png" alt="" />
+                </div>
+                <p>Lorem ipsum dolor sit amet, consetetur</p>
+                <a href="#" id="readmore" class="active-readmore">Read More</a>
               </div>
-              <p>Lorem ipsum dolor sit amet, consetetur</p>
             </div>
           </div>
-          <i class="fa-solid fa-chevron-circle-right right-arrow"></i>
+          <i
+            class="fa-solid fa-chevron-circle-left left-arrow slider__btn--left"
+          ></i>
+          <i
+            class="fa-solid fa-chevron-circle-right right-arrow slider__btn--right"
+          ></i>
+          <div class="dots"></div>
         </div>
       </div>
-    </figure>
-    <!-- Iteam app  -->
-    <figure class="iteam__app">
+    </section>
+    <!-- item app  -->
+    <section class="item__app">
       <div class="container">
-        <div class="iteam-wrapper p2">
+        <div class="item-wrapper p2">
           <div class="apps__section">
             <div class="app__img">
               <img src="images/app/app-1.png" alt="facebook" />
@@ -369,7 +382,7 @@
           </section>
         </div>
       </div>
-    </figure>
+    </section>
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
@@ -394,6 +407,6 @@
       </div>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="src/app.js"></script>
   </body>
 </html>
